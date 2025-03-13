@@ -6,7 +6,7 @@ from log_config import logger
 
 MAX_QUEUE_SIZE = 100  # 设置最大消息队列长度
 HEARTBEAT_INTERVAL = 1  # 心跳间隔 (秒)
-HEARTBEAT_TIMEOUT = 60   # 超时 (秒)
+HEARTBEAT_TIMEOUT = 5   # 超时 (秒)
 
 COMMAND_CONNECT = "CONNECT"
 COMMAND_HEARTBEAT = "HEARTBEAT"
